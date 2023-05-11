@@ -1,0 +1,121 @@
+.contentHover {
+    border: 0px solid !important;
+    transition: 0.1s;
+}
+
+.contentHover:hover {
+    transform: scale(1.1);
+}
+
+.div1 {
+    border: 0px solid !important;
+    width: 400px;
+    height: 230px;
+    background-color: violet;
+}
+
+#im1 {
+    width: 250px;
+    height: 250px;
+}
+
+.pr1 {
+    border: 0px solid !important;
+    width: 110px;
+    height: 25px;
+    background-color: white;
+    left: 50px;
+}
+
+#im2 {
+    width: 250px;
+    height: 240px;
+}
+
+.div2 {
+    border: 0px solid !important;
+    width: 400px;
+    height: 230px;
+    background-color: aqua;
+}
+
+#im3 {
+    width: 250px;
+    height: 240px;
+}
+
+.div3 {
+    border: 0px solid !important;
+    width: 400px;
+    height: 230px;
+    background-color: darkcyan;
+}
+
+#aa {
+    width: 400px;
+    height: 200px;
+}
+
+.d1 {
+    border: 0px solid !important;
+    width: 120px;
+    height: 30px;
+    background-color: yellow;
+    left: 50px;
+    justify-content: center;
+}
+
+#img123 {
+    width: 500px;
+    height: 400px;
+}
+
+.tv {
+    border: 0px solid !important;
+    width: 200px;
+    height: 25px;
+    background-color: white;
+    left: 50px;
+}
+
+#as {
+    width: 600px;
+    height: 300px;
+}
+
+.as1 {
+    border: 0px solid !important;
+    width: 100px;
+    height: 30px;
+    background-color: yellow;
+    left: 50px;
+    justify-content: center;
+}
+
+.anima {
+    border: 0px solid !important;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+.a1 {
+    color: red;
+    font-family: serif;
+    text-shadow: 5px 0px 10px black;
+    animation: abc 2s ease-in-out infinite normal;
+}
+
+
+
+@keyframes abc {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);    
+    }
+}

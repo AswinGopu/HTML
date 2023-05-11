@@ -1,0 +1,6 @@
+# open("asw.txt","x")
+a=open("asw.txt","w")
+a.write("welcome world")
+a.close()
+a=open("asw.txt","a")
+a.write(" hello world")

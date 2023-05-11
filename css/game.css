@@ -1,0 +1,13 @@
+#game div {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    border: 1px solid;
+}
+
+#score {
+    position: relative;
+    left: 60%;
+    font-size: 60px;
+}
